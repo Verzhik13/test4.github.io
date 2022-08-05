@@ -1,0 +1,230 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  ms-text-size-adjust: 100%;
+  moz-text-size-adjust: 100%;
+  webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/* --------------------- */
+body {
+  background: rgb(212, 212, 212);
+}
+
+.blocktop {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 18px;
+  max-width: 841px;
+  margin: 125px auto;
+}
+
+.title {
+  letter-spacing: 2.8px;
+  font-weight: 500;
+  margin: 0 0 30px 0;
+}
+
+.list {
+  margin: 0 0 80px 0;
+}
+
+.list li {
+  padding: 0 0 0 30px;
+  background: url('D:/Code_test/2022/My_first_project_1.08(сss)/My_first_project_1.08(css)/img/li.svg') 0 0 no-repeat;
+  margin: 0 0 15px 0;
+}
+
+.list li:nth-child(1) {
+  text-decoration: line-through;
+  font-weight: 500;
+}
+
+.list li:nth-child(2) {
+  font-weight: 700;
+}
+
+.list li:nth-child(3) {
+  font-style: italic;
+}
+
+.list li:nth-child(4) {
+  text-transform: uppercase;
+  letter-spacing: 2.8px;
+}
+
+.list2 {
+  margin: 0 0 30px 0;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.list2 li::before {
+  content: "✓";
+  display: inline-block;
+  padding: 0 10px 0 0;
+  margin: 10px 0 15px 0;
+  /* padding: 0 0 0 30px;
+  background: url('D:/Code_test/2022/My_first_project_1.08(сss)/My_first_project_1.08(css)/img/li.svg') 0 0 no-repeat;
+  margin: 0 0 15px 0; */
+}
+
+.list2 li:nth-child(2):hover {
+  color: red;
+}
+
+.list2 li:nth-child(2):hover:before {
+  color: red;
+}
+
+/* .list2 li:nth-child(2):hover{
+background: url('D:/Code_test/2022/My_first_project_1.08(сss)/My_first_project_1.08(css)/img/chek.png') 0 0 no-repeat;
+margin: 0 0 15px 0;
+color: red;
+} */
+.form {
+  max-width: 841px;
+  margin: 80px auto;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.button1 {
+  height: 44px;
+  padding: 0 15px 0 15px;
+  background-color: rgba(250, 6, 189, 0.49);
+  color: white;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 2px 1px rgb(3, 177, 252);
+  box-shadow: 0 2px 1px rgb(3, 177, 252);
+}
+
+.button1 span {
+  padding: 0 30px 0 0;
+  background: url('D:/Code_test/2022/My_first_project_1.08(сss)/My_first_project_1.08(css)/img/arrow.svg') right no-repeat;
+}
+
+.button2 {
+  margin: 0 0 0 200px;
+  height: 44px;
+  padding: 0 15px 0 15px;
+  background-color: rgb(6, 250, 184);
+  color: white;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 2px 1px rgb(3, 177, 252);
+  box-shadow: 0 2px 1px rgb(3, 177, 252);
+}
+
+.button2 span {
+  padding: 0 30px 0 0;
+  background: url('D:/Code_test/2022/My_first_project_1.08(сss)/My_first_project_1.08(css)/img/arrow.svg') right no-repeat;
+}
+
+.button2:hover {
+  background-color: rgb(255, 19, 0);
+}
+
+.button3 {
+  margin: 0 0 0 200px;
+  height: 44px;
+  padding: 0 15px 0 15px;
+  background-color: rgb(6, 250, 184);
+  color: white;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 2px 1px rgb(3, 177, 252);
+  box-shadow: 0 2px 1px rgb(3, 177, 252);
+}
+
+.button3 span {
+  padding: 0 30px 0 0;
+  background: url('D:/Code_test/2022/My_first_project_1.08(сss)/My_first_project_1.08(css)/img/arrow.svg') right no-repeat;
+}
+
+.button3:active {
+  background-color: #fff;
+  color: black;
+}
+
+.txt {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  margin: 125px auto;
+  max-width: 841px;
+  font-size: 24px;
+}
+
+.txt2 {
+  margin: 0 0 50px 0;
+}
+
+.txt2::first-letter {
+  font-size: 40px;
+  color: red;
+}
+
+.txt1 {
+  margin: 0 0 50px 0;
+}
+
+.txt1::first-line {
+  color: red;
+}
